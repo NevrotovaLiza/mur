@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dialog_bg">
+
+    <LinearLayout
+        android:id="@+id/lin"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <TextView
+            android:id="@+id/choosetxt"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="Конструкции"
+            android:textColor="@color/black"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="5dp"
+            android:textSize="25dp"
+            android:fontFamily="@font/centurygothic_bold"/>
+
+        <ImageButton
+            android:id="@+id/cancelButton"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@color/white"
+            android:layout_marginTop="10dp"
+            app:srcCompat="@drawable/ic_clear"/>
+
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/linerlay"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/dver"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Двери"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="35dp"
+            android:textSize="20dp"
+            android:fontFamily="@font/centurygothic"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/doorl"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <ImageButton
+            android:id="@+id/door"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"
+            app:srcCompat="@drawable/door1"/>
+
+        <ImageButton
+            android:id="@+id/door2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="50dp"
+            app:srcCompat="@drawable/door2"/>
+
+        <ImageButton
+            android:id="@+id/door3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="50dp"
+            app:srcCompat="@drawable/door3"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/doorl2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <ImageButton
+            android:id="@+id/door4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="30dp"
+            app:srcCompat="@drawable/door4"/>
+
+        <ImageButton
+            android:id="@+id/door5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="35dp"
+            app:srcCompat="@drawable/door5"/>
+
+        <ImageButton
+            android:id="@+id/door6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="40dp"
+            app:srcCompat="@drawable/door6"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linerlay2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            app:srcCompat="@drawable/okno"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Окна"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="45dp"
+            android:textSize="20dp"
+            android:fontFamily="@font/centurygothic"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/winl"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <ImageButton
+            android:id="@+id/win"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp"
+            app:srcCompat="@drawable/win"/>
+
+        <ImageButton
+            android:id="@+id/win2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="50dp"
+            app:srcCompat="@drawable/win2"/>
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="1000dp"
+    android:background="@drawable/dialog_bg">
+
+    <LinearLayout
+        android:id="@+id/lin"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <TextView
+            android:id="@+id/choosetxt"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="Элементы комнаты"
+            android:textColor="@color/black"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="5dp"
+            android:textSize="25dp"
+            android:fontFamily="@font/centurygothic_bold"/>
+
+        <ImageButton
+            android:id="@+id/cancelButton"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@color/white"
+            android:layout_marginTop="10dp"
+            app:srcCompat="@drawable/ic_clear"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="670dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/van"
+                android:layout_width="match_parent"
+                android:layout_height="100dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    app:srcCompat="@drawable/vannaya"
+                    android:layout_marginLeft="20dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ванная"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="35dp"
+                    android:textSize="20dp"
+                    android:fontFamily="@font/centurygothic"
+                    android:textColor="@color/black"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/van1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <ImageButton
+                    android:id="@+id/vann"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:background="@color/white"
+                    android:layout_marginLeft="30dp"
+                    app:srcCompat="@drawable/ic_vanna"/>
+
+                <ImageButton
+                    android:id="@+id/um"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@color/white"
+                    android:layout_marginLeft="50dp"
+                    app:srcCompat="@drawable/ic_umyvalnik"/>
+
+                <ImageButton
+                    android:id="@+id/tual"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@color/white"
+                    android:layout_marginLeft="50dp"
+                    app:srcCompat="@drawable/ic_tualet"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/van2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <ImageButton
+                    android:id="@+id/dush"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@color/white"
+                    android:layout_marginLeft="30dp"
+                    app:srcCompat="@drawable/ic_dush"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/spal"
+                android:layout_width="match_parent"
+                android:layout_height="100dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    app:srcCompat="@drawable/spalnya"
+                    android:layout_marginLeft="20dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Спальня"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="35dp"
+                    android:textSize="20dp"
+                    android:fontFamily="@font/centurygothic"
+                    android:textColor="@color/black"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/spla1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <ImageButton
+                    android:id="@+id/odnokrow"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@color/white"
+                    android:layout_marginLeft="30dp"
+                    app:srcCompat="@drawable/ic_krovat_odno"/>
+
+                <ImageButton
+                    android:id="@+id/dwukrow"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@color/white"
+                    android:layout_marginLeft="50dp"
+                    app:srcCompat="@drawable/ic_krovat_dvu"/>
+
+                <ImageButton
+                    android:id="@+id/detkrov"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@color/white"
+                    android:layout_marginLeft="50dp"
+                    app:srcCompat="@drawable/ic_krovat_det"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/kab"
+                android:layout_width="match_parent"
+                android:layout_height="100dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    app:srcCompat="@drawable/kabinet"
+                    android:layout_marginLeft="20dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Кабинет"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="35dp"
+                    android:textSize="20dp"
+                    android:fontFamily="@font/centurygothic"
+                    android:textColor="@color/black"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/kab1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <ImageButton
+                    android:id="@+id/stol"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@color/white"
+                    android:layout_marginLeft="30dp"
+                    app:srcCompat="@drawable/ic_pismennyj_stol"/>
+
+                <ImageButton
+                    android:id="@+id/stol2"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@color/white"
+                    android:layout_marginLeft="50dp"
+                    app:srcCompat="@drawable/ic_stol3"/>
+
+                <ImageButton
+                    android:id="@+id/stol3"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@color/white"
+                    android:layout_marginLeft="50dp"
+                    app:srcCompat="@drawable/ic_stol5"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/kab2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <ImageButton
+                    android:id="@+id/kreslo"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@color/white"
+                    android:layout_marginLeft="30dp"
+                    app:srcCompat="@drawable/ic_kreslo"/>
+
+                <ImageButton
+                    android:id="@+id/kreslo2"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@color/white"
+                    android:layout_marginLeft="50dp"
+                    app:srcCompat="@drawable/ic_kreslo2"/>
+
+                <ImageButton
+                    android:id="@+id/knigi"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@color/white"
+                    android:layout_marginLeft="50dp"
+                    app:srcCompat="@drawable/ic_knizhnaya_polka"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/zal"
+                android:layout_width="match_parent"
+                android:layout_height="100dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    app:srcCompat="@drawable/gostinaya"
+                    android:layout_marginLeft="20dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Гостиная"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="35dp"
+                    android:textSize="20dp"
+                    android:fontFamily="@font/centurygothic"
+                    android:textColor="@color/black"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/zal1"
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+
+                <ImageButton
+                    android:id="@+id/divan"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@color/white"
+                    android:layout_marginLeft="30dp"
+                    app:srcCompat="@drawable/ic_divan"/>
+
+                <ImageButton
+                    android:id="@+id/divan2"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@color/white"
+                    android:layout_marginLeft="50dp"
+                    app:srcCompat="@drawable/ic_divan2"/>
+
+                <ImageButton
+                    android:id="@+id/divan3"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@color/white"
+                    android:layout_marginLeft="50dp"
+                    app:srcCompat="@drawable/ic_divan3"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/kuh"
+                android:layout_width="match_parent"
+                android:layout_height="100dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    app:srcCompat="@drawable/kuhnya"
+                    android:layout_marginLeft="20dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Кухня"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="35dp"
+                    android:textSize="20dp"
+                    android:fontFamily="@font/centurygothic"
+                    android:textColor="@color/black"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/kuh1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <ImageButton
+                    android:id="@+id/rac"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@color/white"
+                    android:layout_marginLeft="30dp"
+                    app:srcCompat="@drawable/ic_rakovina"/>
+
+                <ImageButton
+                    android:id="@+id/rac2"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@color/white"
+                    android:layout_marginLeft="50dp"
+                    app:srcCompat="@drawable/ic_rakovina2"/>
+
+                <ImageButton
+                    android:id="@+id/stul1"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@color/white"
+                    android:layout_marginLeft="50dp"
+                    app:srcCompat="@drawable/ic_stul1"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/kuh2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <ImageButton
+                    android:id="@+id/stul2"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@color/white"
+                    android:layout_marginLeft="30dp"
+                    app:srcCompat="@drawable/ic_stul2"/>
+
+                <ImageButton
+                    android:id="@+id/plita"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@color/white"
+                    android:layout_marginLeft="35dp"
+                    app:srcCompat="@drawable/ic_plita"/>
+
+                <ImageButton
+                    android:id="@+id/obed"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@color/white"
+                    android:layout_marginLeft="40dp"
+                    app:srcCompat="@drawable/ic_obedennyj_stol"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/kuh3"
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <ImageButton
+                    android:id="@+id/obed2"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@color/white"
+                    android:layout_marginLeft="30dp"
+                    app:srcCompat="@drawable/ic_obedennyj_stol2"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
